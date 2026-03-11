@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+li {
+    padding: 10px;
+}
+input {
+    padding: 8px;
+    width: 250px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#remove {
+    background-color: #f44336;
+}
+#removed-items {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    min-height: 50px;
+}
+.removed-item {
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+}
+#removed-count {
+    margin-top: 10px;
+    font-weight: bold;
+}
