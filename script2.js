@@ -21,7 +21,6 @@ function updateListColors() {
     }
 }
 
-// Add button click event
 add.addEventListener('click', function() {
     let itemText = item.value.trim();
     
