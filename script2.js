@@ -3,8 +3,8 @@ let list = document.getElementById('list');
 let item = document.getElementById('item');
 let add = document.getElementById('add');
 let remove = document.getElementById('remove');
-let removedItems = document.getElementById('removed-items');
-let removedCount = document.getElementById('removed-count');
+let removedItems = document.getElementById('removedItems');
+let removedCount = document.getElementById('removedCount');
 
 
 let removedArray = [];
@@ -67,7 +67,7 @@ remove.addEventListener('click', function() {
             removedArray.push(removedText);
 
             let removedSpan = document.createElement('span');
-            removedSpan.className = 'removed-item';
+            removedSpan.className = 'removedItem';
             removedSpan.textContent = removedText;
             removedItems.appendChild(removedSpan);
             items[i].remove();

@@ -1,27 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: calibri, sans-serif;
     margin: 20px;
+    background-color: #625858;
 }
 h1 {
-    color: #3a2e2e;
+    color: #625858;
 }
 div {
-    margin: 10px 0;
+    margin: 10px ;
 }
 input {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
 }
 button {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 11px 25px;
     border: none;
     border-radius: 9px;
     cursor: pointer;
 }
-.underlined-word {
+.underlinedWord {
     text-decoration: underline;
     display: inline-block;
     margin-right: 16px;
@@ -29,7 +30,7 @@ button {
 #words {
     margin-top: 60px;
     padding: 25px;
-    background-color: #f0f0f0;
+    background-color: #840707;
     min-height: 10px;
 }
 #count {

@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 15px;
 }
 h1 {
-    color: lightgray;
+    color: black;
 }
 ul {
     list-style-type: none;
@@ -30,21 +30,21 @@ button {
     cursor: pointer;
 }
 #remove {
-    background-color: #f44336;
+    background-color: red;
 }
-#removed-items {
+#removedItems {
     margin-top: 20px;
     padding: 10px;
     background-color: #f9f9f9;
     min-height: 50px;
 }
-.removed-item {
-    color: red;
+.removedItem {
+    color: white;
     font-weight: bold;
     display: inline-block;
     margin-right: 15px;
 }
-#removed-count {
+#removedCount {
     margin-top: 10px;
     font-weight: bold;
 }

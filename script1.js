@@ -1,6 +1,6 @@
 
 let sentence = document.getElementById('sentence');
-let sentCount = document.getElementById('sent-count');
+let sentCount = document.getElementById('sentCount');
 let Execute = document.getElementById('Execute');
 let words = document.getElementById('words');
 let count = document.getElementById('count');
@@ -50,7 +50,7 @@ Execute.addEventListener('click', function() {
    
     for (let i = 0; i < validWords.length; i++) {
         let wordSpan = document.createElement('span');
-        wordSpan.className = 'underlined-word';
+        wordSpan.className = 'underlinedWord';
         wordSpan.textContent = validWords[i];
         words.appendChild(wordSpan);
     }
